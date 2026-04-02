@@ -1,4 +1,4 @@
-# Muscle-script-script.lua                task.wait()
+-- Muscle-script-script.lua                task.wait()
                 if game:GetService("Players").LocalPlayer.Durability.Value >= 1000000 then
                     for i, v in pairs(game:GetService("Workspace").machinesFolder:GetDescendants()) do
                         if v.Name == "neededDurability" and v.Value == 1000000 and 
